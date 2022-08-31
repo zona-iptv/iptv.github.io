@@ -1,0 +1,187 @@
+/* font-family: 'Yeseva One', cursive;
+font-family: 'Gentium Book Basic', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+/*  ************************************************** */
+#header{
+    background: url('../img/bg1.jpg') no-repeat center top / cover;
+    color: #fff;
+}
+.main-menu{
+    /* background: url('../img/bg-header.png') no-repeat; */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* padding: 5px 0; */
+}
+.menu{
+    font-family: 'Gentium Book Basic', serif;
+}
+.menu__item a{
+    padding: 45px 0;
+}
+.menu__item a{
+    position: relative;
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.menu__item a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    overflow: hidden;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+.menu__item a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+/* .menu__item:hover{
+    border-top: 3px solid #fff;
+} */
+
+.social{
+
+}
+.social__item{
+    margin-right: 5px;
+    padding: 45px 0;
+}
+.social__item a{
+    color: #e09835;
+    font-size: 16px;
+}
+.social__item a:hover{
+    text-decoration: none;
+}
+.offer{
+
+}
+.title{
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 143px;
+}
+.title__text{
+    font-family: 'Yeseva One', cursive;
+    font-size: 70px;
+}
+.title__divider{
+    padding-top: 37px;
+}
+.title__btn{
+    padding-top: 37px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+.title__btn a{
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    width: 230px;
+    padding: 25px 50px;
+}
+.title__btn a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.cta__book{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid #000;
+    margin-right: 30px;
+    transition: .5s;
+}
+.cta__menu{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #fff;
+    transition: .5s;
+}
+.cta__book:hover{
+    background-color:#000;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: .5s;
+
+}
+.cta__menu:hover{
+    background-color:#fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: .5s; 
+} 
+/* section food */
+#intro{
+    background: url('../img/bg2.jpg') no-repeat center top;
+    padding-top: 73px;
+    padding-bottom: 12px;
+}
+.food{
+    text-align: center;
+}
+.food__title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: #cc9900;
+    width: 353px;
+    margin: 0 auto;
+}
+.food__divider{
+    margin-top: 18px;
+}
+.food__text{
+    /* margin-top: 34px; */
+    font-family: 'Lato', sans-serif;
+    width: 406px;
+    font-size: 16px;
+    margin: 34px auto 0 auto;
+}
+.food__chef{
+    margin-top: 45px;   
+
+}
+#ingredients{
+    background: url('../img/bg3.jpg') no-repeat center top;
+}
+.ingredient{
+    margin: 100px  0;
+    padding: 80px  0 74px 0;  
+    background: url('../img/bg-s3.png') no-repeat center;
+    text-align: center;
+    color: #fff;
+}
+.ingredient__title{
+   font-family: 'Yeseva One', cursive;
+   font-size: 36px;
+}
+.ingredient__img{
+    margin-top:15px;
+}
+.ingredient__text{
+    padding-top: 32px;
+    padding-bottom: 70px;
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
