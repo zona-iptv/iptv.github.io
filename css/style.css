@@ -90,20 +90,10 @@ ul {
 /* --- HEADER --- */
 
 header {
-  display: inline-block;
-  width: 100%;
-/*  background-image: url('../images/kharkovgroup.jpg'); */
-/*  background: rgba(10, 10, 10, 0.3); */
-/*  background: linear-gradient(to bottom, #fff 0%, #666 70%), url('../images/kharkovgroup.jpg'); */
-  background: linear-gradient(
-              rgba(0, 0, 0, 0.7),
-              rgba(0, 0, 128, 0.7)
-  ), url('../images/kharkovgroup.jpg');
-/*  background-color:whitesmoke; */
-  background-size: auto auto; /*cover;*/
-  background-position: center; /*50% 50%;*/
-  background-repeat: no-repeat;
-  padding: 2.0rem 0 1.0rem 0;
+    display: inline-block;
+    width: 100%;
+    background-color: #2a5571;
+    padding: 2.0rem 0 1.0rem 0;
 }
 
 header p.logo {
@@ -133,7 +123,6 @@ header a.logo {
 }
 
 /* --- GRID --- */
-
 .container {
   max-width: 960px; /*1140px;*/
   min-width: 280px;
@@ -141,7 +130,10 @@ header a.logo {
   margin-right: auto;
   padding: 30px;
 }
-
+main {
+    padding: 25px;
+    border: 1px solid #efefef;
+}
 .article__title {
     font-family: Montserrat,sans-serif;
     font-size: 24px;
@@ -150,11 +142,16 @@ header a.logo {
     margin-top: 0;
     margin-bottom: 24px;
 }
-
 @media only screen and (min-width: 680px) {
   .article__title {
     font-size: 36px;
     line-height: 48px;
     margin-bottom: 32px;
-  }
+  }}
+.footer-bottom {
+    position: relative;
+    padding-top: 50px;
+    background-color: #0b1825;
+    color: #8b929c;
+    padding: 50px;
 }
