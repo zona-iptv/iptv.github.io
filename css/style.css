@@ -27,6 +27,11 @@ html, body {
   line-height:1.5;
 }
 
+body {
+    background-image: url(/img/tv_channel.png);
+    background-color: #000;
+}
+
 a {
   text-decoration: none;
   color: blue;
@@ -131,6 +136,7 @@ header a.logo {
   padding: 30px;
 }
 main {
+    background: white;
     padding: 25px;
     border: 1px solid #efefef;
 }
