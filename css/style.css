@@ -87,9 +87,9 @@ ul {
   }
 }
 
-/* --- HEADER --- */
+/* ################################# HEADER ################################# */
 
-header {
+header, .footer-bottom {
     display: block;
     width: 100%;
     max-width: 1000px;
@@ -124,7 +124,7 @@ header a.logo {
   }
 }
 
-/* --- GRID --- */
+/* ################################# GRID ################################# */
 .container {
   max-width: 960px; /*1140px;*/
   min-width: 280px;
