@@ -89,11 +89,9 @@ ul {
 
 /* ################################# HEADER ################################# */
 
-header, .footer-bottom {
+header {
     display: block;
     width: 100%;
-    max-width: 1000px;
-    margin: auto;
     background-color: #2a5571;
     padding: 2.0rem 0 1.0rem 0;
 }
