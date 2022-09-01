@@ -160,8 +160,9 @@ main {
     padding-top: 50px;
     background-color: #0b1825;
     color: #8b929c;
-    padding: 50px;
+    padding: 1.5rem;
 }
 .footer-info {
     font-size: 14px;
+    padding-left: 2rem;
 }
