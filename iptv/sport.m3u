@@ -1,97 +1,153 @@
-﻿#EXTM3U url-tvg="http://iptv-content.webhop.net/guide.xml"
-
-#https://myplaylists.github.io
-
-#обновление 2022.08.08
-
+#EXTM3U
+#EXTINF:-1,#Обновлён: 01.09.22
+https://zona-iptv.github.io/
 #EXTGRP:Спорт
+#EXTINF:-1 ,Матч! Игра
+http://46.174.83.66/Match_Igra/index.m3u8
 
-#EXTINF:-1,Viasat Sport HD
-http://91.213.59.156/play/51/index.m3u8
-#EXTINF:-1,Eurosport 1 HD
-http://50.7.92.90/Eurosport_HD/mono.m3u8
-#EXTINF:-1,Eurosport 2 HD
-http://50.7.92.90/Evrosport_2/mono.m3u8
-#EXTINF:-1,Extreme Sports
-http://50.7.92.90/Extreme_Sports/mono.m3u8
-
-#EXTINF:-1,Setanta Eurasia HD
-http://50.7.92.90/SetantaEurasia/mono.m3u8
-#EXTINF:0,Setanta Sports 1
-http://88.99.214.215/setanta1/mono.m3u8
-#EXTINF:0,Setanta Sports 2
-http://88.99.214.215/setanta2/mono.m3u8
-#EXTINF:0,Setanta Sports Ukraine
-http://88.99.214.215/setantasport/mono.m3u8
-#EXTINF:-1,Setanta Sports Ukraine HD
-http://91.213.59.156/play/6/index.m3u8
-#EXTINF:-1,Setanta+ HD UA
-http://91.213.59.156/play/13/index.m3u8
-
-#EXTINF:-1,Телеканал Футбол
-http://gmediatv.nl/op/WW1GdFlteHBaM016TURCQWNtRnRZbXhsY2k1eWRRPT0/2294.m3u8
-
-#EXTINF:-1,Матч ТВ
-http://iptv.ktkru.ru:8003/index.m3u8
-#EXTINF:-1,Матч! Футбол 1 HD
-http://gmediatv.nl/op/WW1GdFlteHBaM016TURCQWNtRnRZbXhsY2k1eWRRPT0/2794.m3u8
-#EXTINF:-1,Матч! Футбол 3 HD
-http://gmediatv.nl/op/WW1GdFlteHBaM016TURCQWNtRnRZbXhsY2k1eWRRPT0/2796.m3u8
-#EXTINF:-1,МАТЧ ПРЕМЬЕР HD
-http://gmediatv.nl/op/WW1GdFlteHBaM016TURCQWNtRnRZbXhsY2k1eWRRPT0/2898.m3u8
-#EXTINF:-1,МАТЧ! HD
-http://gmediatv.nl/op/WW1GdFlteHBaM016TURCQWNtRnRZbXhsY2k1eWRRPT0/2900.m3u8
-
-#EXTINF:-1,Матч! Боец
-http://50.7.92.90/Match_Boets/mono.m3u8
-#EXTINF:-1,Матч! Премьер HD
-http://50.7.92.90/Nash_futbol_HD/mono.m3u8
-#EXTINF:-1,Матч! Футбол 1 HD
-http://50.7.92.90/Match_Futbol_1_HD/mono.m3u8
-#EXTINF:-1,Матч! Футбол 2 HD
-http://50.7.92.90/Match_Futbol_2_HD/mono.m3u8
-#EXTINF:-1,Матч! Футбол 3 HD
-http://50.7.92.90/Match_Futbol_3_HD/mono.m3u8
-
-#EXTINF:-1,СТАРТ HD
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=startlive
-#EXTINF:-1,Мир баскетбола
+#EXTINF:-1 ,Мир Баскетбола
 http://46.174.83.66/MirBasketbola/mpegts
-#EXTINF:0,Спортивный HD
-http://128.0.27.41:8080/239.211.200.46/mpegts
-#EXTINF:0,Хоккейный HD
-http://128.0.27.41:8080/239.211.200.48/mpegts
-#EXTINF:0,Футбольный HD
-http://128.0.27.41:8080/239.211.200.47/mpegts
 
-#EXTINF:-1,Tennis Channel Plus
-https://playoutengine.sinclairstoryline.com/playout/f2f8b269-dd85-4434-bdd3-b3a64ca9cd60/g.m3u8
+#EXTINF:-1 ,Qazsport KZ
+http://92.46.127.146:8080/qazsport/index.m3u8
 
-#EXTINF:-1,MostVideo
-http://w4.mostvideo.tv/tv/ch1.m3u8
+#EXTINF:-1 ,Bein Sport 1
+http://93.152.174.144:4000/play/bein1fr/index.m3u8
 
-#EXTINF:-1,XSPORT
-http://iptv.prosto.tv:7000/ch109/video.m3u8
-#EXTINF:-1,XSPORT HD
-http://iptv.prosto.tv:7000/ch110/video.m3u8
+#EXTINF:-1 ,Bein Sports 2
+http://93.152.174.144:4000/play/bein2fr/index.m3u8
 
-#EXTINF:-1, KHL
-https://sc.id-tv.kz:443/KHL_36_37.m3u8
+#EXTINF:-1 ,Bein Sports 3
+http://93.152.174.144:4000/play/bein3ar/index.m3u8
 
-#EXTINF:-1,СТАРТ ИГРА FHD
-https://stream-msk-03.ott.tricolor.tv/dtv/id632_MSKSG-PVR-1--Channel_LIVE4/03/plst.m3u8
-
-#EXTINF:-1,World Of Free Sports TV [HD]
-https://a.jsrdn.com/broadcast/ab14783a09/+0000/high/c.m3u8
-
-#EXTINF:-1,FOX Sports HD [HD]
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a74b8e1e22a61737979c6bf/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=705&deviceId=5a74b8e1e22a61737979c6bf&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:-1,PGA TOUR [HD]
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5de94dacb394a300099fa22a/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=713&deviceId=5de94dacb394a300099fa22a&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-
-#EXTINF:-1 ,СТАРТ ПОЕДИНОК FHD
-http://stream-msk-06.ott.tricolor.tv/dtv/id629_MSKSG-PVR-1--Channel_LIVE2/03/plst.m3u8
+#EXTINF:-1 ,MMA Jankie HD
+http://a.jsrdn.com/broadcast/80f6ba72c8/+0000/high/c.m3u8
 
 #EXTINF:-1,Turkmen Sport HD
 http://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8
 
+#EXTINF:-1 ,МАТЧ ТВ
+http://iptv.ktkru.ru:8003/index.m3u8
+
+#EXTINF:-1 ,Матч! Арена
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=matcharenahd
+
+#EXTINF:-1 ,Матч! Футбол 1
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=matchfootball1
+
+#EXTINF:-1 ,Матч! Футбол 2
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=matchfootball2
+
+#EXTINF:-1 ,Матч! Футбол 3
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=matchfootball3
+
+#EXTINF:-1 ,МАТЧ ТВ HD
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=matchhd_nocensored
+
+#EXTINF:-1 ,Матч! Премьер HD
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=matchpremiere_hd
+
+#EXTINF:-1 ,СТАРТ HD
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=startlive
+
+#EXTINF:-1 ,Viasat Sport HD
+http://livetv.mylifeisgood.ml/mfolive.m3u8?media=viasatsporthd
+
+#EXTINF:-1 ,Eurosport 2 HD
+http://livetv.mylifeisgood.ml:8880/mfolive.m3u8?media=eurosport2
+
+#EXTINF:-1 ,МАТЧ! СТРАНА
+http://livetv.mylifeisgood.ml:8880/mfolive.m3u8?media=matchstrana
+
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 2 HD
+http://srv1.roshen.live/3cd3wPhi2V/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Setanta Sports 1
+http://srv1.roshen.live/aD3sl16N6p/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Setanta Sports 2
+http://srv1.roshen.live/cfzVPk0ujI/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Футбольный
+http://srv1.roshen.live/Eo9ywaYRn2/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Setanta Sports+ Ukraine
+http://srv1.roshen.live/h2olpt6ItU/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 1 HD
+http://srv1.roshen.live/jrTXWkg7Mx/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Матч! Футбол 3 HD
+http://srv1.roshen.live/P9nijBsfaT/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",KHL Prime
+http://srv1.roshen.live/qbLbsDX9Mc/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Матч! Премьер HD
+http://srv1.roshen.live/ruJ3OSf65E/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Setanta Sports Ukraine
+http://srv1.roshen.live/tFdUsOAQcE/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Матч! HD
+http://srv1.roshen.live/VUcn8l6dxm/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 group-title="Спорт",Хоккейный HD
+http://srv1.roshen.live/ZwhFEOoTmU/mpegts?token=Ibaa24rw8OhpevN6
+
+#EXTINF:-1 ,МАТЧ! СТРАНА
+https://bl.uma.media/live/291661/HLS/4614144_3/2/1/playlist.m3u8
+
+#EXTINF:-1 ,МАТЧ ТВ!
+https://bl.uma.media/live/312119/HLS/4614144_3/2/1/playlist.m3u8
+
+#EXTINF:-1 ,Конный Мир
+https://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
+
+#EXTINF:-1 ,Матч! HD
+https://bl.uma.media/live/407384/HLS/6307840_7/2/1/playlist.m3u8
+
+#EXTINF:-1 ,Viasat Sport HD
+https://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
+
+#EXTINF:-1 ,MySports 1 HD
+https://cdn02.upstream-cloud.ch/sstvlinear/ngrp:sstvlinear_all/playlist.m3u8
+
+#EXTINF:-1 ,Motor Racing
+https://dai.google.com/linear/hls/event/qI1pC-R_Sma0bVLVjaEOtw/master.m3u8
+
+#EXTINF:-1 ,Матч! Арена
+https://livetv.mylifeisgood.ml/channels/matcharenahd
+
+#EXTINF:-1 ,Матч! Боец
+https://livetv.mylifeisgood.ml/channels/matchboew
+
+#EXTINF:-1 ,МАТЧ ТВ H
+https://livetv.mylifeisgood.ml/channels/matchhd_nocensored
+
+#EXTINF:-1 ,Матч! Игра
+https://livetv.mylifeisgood.ml/channels/matchigra
+
+#EXTINF:-1 ,МАТЧ! СТРАНА
+https://livetv.mylifeisgood.ml/channels/matchstrana
+
+#EXTINF:-1 ,Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
+
+#EXTINF:-1 ,БОКС ТВ
+https://sc.id-tv.kz/BoksTV.m3u8
+
+#EXTINF:-1 ,КХЛ
+https://sc.id-tv.kz/FHD_KHL.m3u8
+
+#EXTINF:-1 ,Матч! Планета
+https://sc.id-tv.kz/MatchPlaneta.m3u8
+
+#EXTINF:-1 ,Viasat Sport HD
+https://sc.id-tv.kz/ViasatSport.m3u8
+
+#EXTINF:-1 ,Fight-Sports
+https://shls-fight-sports-ak.akamaized.net/out/v1/ee7e6475b12e484bbfa5c31461ad4306/index_2.m3u8
+
+#EXTINF:-1 ,Tennis Channel
+https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
