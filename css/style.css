@@ -153,6 +153,8 @@ main {
   }}
 .footer-bottom {
     position: relative;
+    max-width: 970px;
+    margin: 0 auto;
     padding-top: 50px;
     background-color: #0b1825;
     color: #8b929c;
